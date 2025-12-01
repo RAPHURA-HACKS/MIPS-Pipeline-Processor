@@ -1,0 +1,11 @@
+ADDI $10, $0, 5
+NOP
+NOP
+NOP
+SW $10, 20($0)
+NOP
+NOP
+LW $11, 20($0)
+NOP
+NOP
+ADD $12, $10, $11
